@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blocker Control</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 300px; }
+    input { width: 80%; }
+    button { margin-top: 5px; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+  <h3>Website Blocker</h3>
+  <label><input type="checkbox" id="toggleBlock"> Enable Blocking</label><br><br>
+  <input type="text" id="urlInput" placeholder="Enter site to block" />
+  <button id="addBtn">Add</button>
+  <ul id="blockedList"></ul>
+  <button id="clearBtn">Clear All</button>
+  <script src="popup.js"></script>
+</body>
+</html>
